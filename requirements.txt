@@ -1,0 +1,37 @@
+# Core torch packages (CPU by default)
+torch
+torchvision
+torchaudio
+# For CUDA (uncomment and match with your CUDA version, e.g., cu121)
+# --extra-index-url https://download.pytorch.org/whl/cu121
+
+# Llama.cpp (CPU)
+llama-cpp-python
+
+# For GPU builds of llama-cpp-python, install manually from:
+# https://abetlen.github.io/llama-cpp-python/whl/<cuda-version>
+# Example (uncomment if needed):
+# llama-cpp-python --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cu121
+
+# Sentence Transformers & ChromaDB
+sentence-transformers
+chromadb
+
+# LangChain ecosystem
+langchain
+langchain-community
+llama-index
+llama-parse
+
+# PDF processing & document parsing
+pypdf
+pdfplumber
+fitz  # Alias for PyMuPDF
+unstructured  # For advanced PDF and doc loaders
+
+# Other useful tools
+huggingface_hub
+joblib
+pandas==2.2.2  # Version pinned for compatibility with LangChain components
+tqdm
+jupyter
